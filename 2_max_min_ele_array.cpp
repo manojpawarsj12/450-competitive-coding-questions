@@ -1,3 +1,4 @@
+//Find the "Kth" max and min element of an array
 #include <bits/stdc++.h>
 using namespace std;
 int main()
@@ -21,6 +22,6 @@ int main()
             min = arr[i];
         }
     }
-    cout << min << max << endl;
+    cout << min << " " << max << endl;
     return 0;
 }
